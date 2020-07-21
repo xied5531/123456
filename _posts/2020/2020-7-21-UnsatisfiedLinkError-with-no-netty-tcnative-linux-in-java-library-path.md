@@ -1,7 +1,6 @@
 ---
 title: UnsatisfiedLinkError with no netty tcnative linux in java library path
 date: 2020-7-21 09:16:38 +0800
-categories: [QAS]
 tags: [netty]
 ---
 
