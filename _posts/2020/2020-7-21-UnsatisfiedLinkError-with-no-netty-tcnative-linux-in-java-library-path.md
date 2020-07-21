@@ -1,7 +1,7 @@
 ---
 title: UnsatisfiedLinkError with no netty tcnative linux in java library path
 date: 2020-7-21 09:16:38 +0800
-tags: [netty]
+tags: netty
 ---
 
 ## Q: 使用netty，代码加载过程中报java.lang.UnsatisfiedLinkError: no netty_tcnative_linux_x86_64 in java.library.path
