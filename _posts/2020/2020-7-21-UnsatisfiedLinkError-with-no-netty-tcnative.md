@@ -1,5 +1,5 @@
 ---
-title: 使用netty，加载netty包过程中，报UnsatisfiedLinkError错误
+title: java加载netty包过程中，报UnsatisfiedLinkError错误
 date: 2020-7-21 09:16:38 +0800
 tags: netty
 ---
