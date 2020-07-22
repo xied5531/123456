@@ -37,7 +37,7 @@ author:
   type      : # "person" (default), "organization"
   name      : xied5531
   url       :
-  avatar    : https://avatars2.githubusercontent.com/u/3021753?s=400&u=a8f7fa80d0e888ef89b3ba96cf5127df711f45ec&v=4 # path or url of avatar image (square)
+  avatar    : # path or url of avatar image (square)
   bio       : # I am an amazing person.
   email     :
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
@@ -49,7 +49,7 @@ author:
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
   linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
-  github    : https://github.com/xied5531 # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  github    : xied5531 # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
 
