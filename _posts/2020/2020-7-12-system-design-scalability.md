@@ -65,9 +65,20 @@ NOSQL型：键-值数据库、文档型数据库、列型数据库或图数据�
 
 ## 异步
 
+模式：
+
 - 提前计算，后台定时更新
 - 临时计算，建立异步任务，定时查询任务状态
+
+方法：
+
+- 消息队列：异步消费
+- 任务队列：按需调度
+
+背压：限制队列大小
 
 ## 参考
 
 - https://www.lecloud.net/tagged/scalability/chrono
+- https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md
+
