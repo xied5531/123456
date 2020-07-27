@@ -46,6 +46,13 @@ Match User backup-om
 # systemctl status sshd.service
 ```
 
+配置安全策略：
+
+```
+# vi /etc/sysconfig/selinux
+SELINUX=disabled
+```
+
 ## lftp连接
 
 ```
@@ -66,4 +73,4 @@ lftp -u backup-om,'bck@pass1' -e 'ls; exit' sftp://x.x.x.x
 sshd[]: fatal: bad ownership or modes for chroot directory component "/sftp/" [postauth]
 ```
 
-> 修正/sftp及其父目录对sftp用户backup-om的权限
+> 修正Chroot目录/sftp及其父目录的权限，root和>=750
