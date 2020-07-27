@@ -61,6 +61,8 @@ lftp -u backup-om,'bck@pass1' -e 'ls; exit' sftp://x.x.x.x
 
 ## 问题定位
 
+lftp连接时出现`Write failed: Broken pipe`错误。
+
 客户端lftp打开debug日志
 
 `echo 'debug' >> /etc/lftp.conf`
