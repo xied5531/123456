@@ -75,4 +75,4 @@ lftp连接时出现`Write failed: Broken pipe`错误。
 sshd[]: fatal: bad ownership or modes for chroot directory component "/sftp/" [postauth]
 ```
 
-> 修正Chroot目录/sftp及其父目录的权限，root和750获取700
+> 修正Chroot目录/sftp及其父目录的权限，root和750或700
