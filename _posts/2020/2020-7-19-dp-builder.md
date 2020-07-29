@@ -23,30 +23,6 @@ mermaid: true
 6. 选择。。。
 7. 创建角色
 
-## 类图
-
-```mermaid
-classDiagram
-	class Hero{
-		-String profession
-		-String name
-		-String hairColor
-		-String weapon
-		-Hero(builder)
-	}
-	class Builder{
-		-String profession
-		-String name
-		-String hairColor
-		-String weapon
-		+Builder(profession, name)
-		+withHairColor(String hairColor) Builder
-		+withWeapon(String weapon) Builder
-		+build() Hero		
-	}
-	Hero ..> Builder : Dependency
-```
-
 ## 示例
 
 ```
