@@ -23,7 +23,19 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /archive.html
-
+  - titles:
+      # @start locale config
+      en      : &EN       Bookmarks
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  书签
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      # @end locale config
+    url: /bookmarks.html
 #  - titles:
 #      # @start locale config
 #      en      : &EN       About
