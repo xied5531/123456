@@ -25,7 +25,7 @@ mermaid: true
 
 ## 示例
 
-```
+```java
 public class Hero {
     private final String profession;
 
