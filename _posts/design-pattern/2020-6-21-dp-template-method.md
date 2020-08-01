@@ -28,7 +28,7 @@ tags: 设计模式
 
 ## 示例
 
-```
+```java
 public abstract class ShoppingPeople {
     protected abstract String pickTarget();
 
@@ -48,7 +48,7 @@ public abstract class ShoppingPeople {
 
 ```
 
-```
+```java
 public class ShoppingMan extends ShoppingPeople {
 
     @Override
@@ -63,7 +63,7 @@ public class ShoppingMan extends ShoppingPeople {
 }
 ```
 
-```
+```java
 public class ShoppingWoman extends ShoppingPeople {
 
     @Override
@@ -78,7 +78,7 @@ public class ShoppingWoman extends ShoppingPeople {
 }
 ```
 
-```
+```java
 public class Shopping {
     private ShoppingPeople people;
 
