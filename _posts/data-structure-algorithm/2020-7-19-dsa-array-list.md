@@ -26,7 +26,7 @@ tags: 数据结构
 
 ### 数组
 
-```
+```go
 var arr = []string{"a", "b", "c", "d"}
 
 func visitArrIter(arr []string) {
@@ -47,7 +47,7 @@ func visitArrRec(arr []string, index int)  {
 
 ### 链表
 
-```
+```go
 type listNode struct {
 	val string
 	next *listNode
