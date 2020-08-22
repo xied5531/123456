@@ -107,7 +107,7 @@ public interface IConcurrentBagEntry
 
 ### borrow，借用资源
 
-```
+```java
    public T borrow(long timeout, final TimeUnit timeUnit) throws InterruptedException
    {
       //检查当前线程缓存资源
