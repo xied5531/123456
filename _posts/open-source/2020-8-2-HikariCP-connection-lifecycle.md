@@ -26,14 +26,12 @@ sequenceDiagram
 	participant Entry as PoolEntry
 	participant Factory as ProxyFactory
 	participant Connection as ProxyConnection
-
-    A->>DS: getConnection()
+  A->>DS: getConnection()
 	DS->>Pool: getConnection()
 	Pool->>Bag: borrow()
 	Bag->Entry: 
 	Entry->>Factory: getProxyConnection()
-	Factory->Connection: 
-	
+	Factory->Connection: 	
 	Connection-->Factory: 
 	Factory-->>Entry: 
 	Entry-->>Pool: 
@@ -52,8 +50,7 @@ sequenceDiagram
 	participant Entry as PoolEntry
 	participant Factory as ProxyFactory
 	participant Connection as ProxyConnection
-
-    A->>Connection: close()
+  A->>Connection: close()
 	Connection->>Entry: recycle()
 	Entry->>Pool: recycle()
 	Pool->>Bag: require()
