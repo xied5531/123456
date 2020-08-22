@@ -30,14 +30,14 @@ sequenceDiagram
     A->>DS: getConnection()
 	DS->>Pool: getConnection()
 	Pool->>Bag: borrow()
-	Bag->Entry
+	Bag->Entry: 
 	Entry->>Factory: getProxyConnection()
-	Factory->Connection
+	Factory->Connection: 
 	
-	Connection-->Factory
-	Factory-->>Entry
-	Entry-->>Pool
-	Pool-->>DS
+	Connection-->Factory:
+	Factory-->>Entry:
+	Entry-->>Pool:
+	Pool-->>DS:
 	DS-->>A: ProxyConnection
 ```
 
