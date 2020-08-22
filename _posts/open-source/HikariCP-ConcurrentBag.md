@@ -1,7 +1,7 @@
 ---
 title: HikariCP源码阅读：数据库连接资源池管理ConcurrentBag
 date: 2020-8-2 14:41:52
-tags: [开源, HikariCP]
+tags: [HikariCP]
 ---
 
 ## 源码
