@@ -34,10 +34,10 @@ sequenceDiagram
 	Entry->>Factory: getProxyConnection()
 	Factory->Connection: 
 	
-	Connection-->Factory:
-	Factory-->>Entry:
-	Entry-->>Pool:
-	Pool-->>DS:
+	Connection-->Factory: 
+	Factory-->>Entry: 
+	Entry-->>Pool: 
+	Pool-->>DS: 
 	DS-->>A: ProxyConnection
 ```
 
