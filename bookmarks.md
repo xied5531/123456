@@ -18,6 +18,10 @@ titles:
 
 - [Learn Git Branching](https://learngitbranching.js.org/)
 
+## Tips
+
+- [Double-checked_locking](https://en.wikipedia.org/wiki/Double-checked_locking)
+
 ## Java
 
 ### 并发
