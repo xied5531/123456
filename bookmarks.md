@@ -14,4 +14,12 @@ titles:
   # @end locale config
 ---
 
+## 收藏夹
+
 - [Learn Git Branching](https://learngitbranching.js.org/)
+
+## Java
+
+### 并发
+
+- AtomicIntegerFieldUpdater：[AtomicIntegerFieldUpdater使用](https://www.cnblogs.com/hithlb/p/4516078.html)
