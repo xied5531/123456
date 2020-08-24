@@ -26,4 +26,5 @@ titles:
 
 ### 并发
 
+- 线程创建：[Java并发学习之四种线程创建方式的实现与对比](https://my.oschina.net/u/566591/blog/1576410)
 - AtomicIntegerFieldUpdater：[AtomicIntegerFieldUpdater使用](https://www.cnblogs.com/hithlb/p/4516078.html)
