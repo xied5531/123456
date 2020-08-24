@@ -26,5 +26,6 @@ titles:
 
 ### 并发
 
-- 线程创建：[Java并发学习之四种线程创建方式的实现与对比](https://my.oschina.net/u/566591/blog/1576410)
+- 线程：[Java并发学习之四种线程创建方式的实现与对比](https://my.oschina.net/u/566591/blog/1576410)
+- 线程池：[深入理解 Java 线程池：ThreadPoolExecutor](https://juejin.im/entry/6844903475197788168)
 - AtomicIntegerFieldUpdater：[AtomicIntegerFieldUpdater使用](https://www.cnblogs.com/hithlb/p/4516078.html)
