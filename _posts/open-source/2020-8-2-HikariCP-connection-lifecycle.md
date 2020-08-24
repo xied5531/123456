@@ -15,43 +15,33 @@ tags: [HikariCP]
 
 ## 生命周期
 
-### getConnection()
-
 ```mermaid
 sequenceDiagram
-	participant A as Actor
-	participant DS as HikariDataSource
-	participant Pool as HikariPool
-	participant Bag as ConcurrentBag
-	participant Entry as PoolEntry
-	participant Factory as ProxyFactory
-	participant Connection as ProxyConnection
-  A->>DS: getConnection()
-	DS->>Pool: getConnection()
-	Pool->>Bag: borrow()
-	Bag->Entry: 
-	Entry->>Factory: getProxyConnection()
-	Factory->Connection: 	
-	Connection-->Factory: 
-	Factory-->>Entry: 
-	Entry-->>Pool: 
-	Pool-->>DS: 
-	DS-->>A: ProxyConnection
+    participant DS as HikariDataSource
+    participant Pool as HikariPool
+    participant Bag as ConcurrentBag
+    participant Entry as PoolEntry
+    participant Factory as ProxyFactory
+    participant Connection as ProxyConnection
+
+    opt getConnection()
+        DS->>Pool: getConnection()
+        Pool->>Bag: borrow()
+        Bag->Entry
+        Entry->>Factory: getProxyConnection()
+        Factory->Connection
+        
+        Connection-->Factory
+        Factory-->>Entry
+        Entry-->>Pool
+        Pool-->>DS: ProxyConnection
+    end
+    
+    opt close()
+        Connection->>Connection: close()
+        Connection->>Entry: recycle()
+        Entry->>Pool: recycle()
+        Pool->>Bag: require()
+    end
 ```
 
-### close()
-
-```mermaid
-sequenceDiagram
-	participant A as Actor
-	participant DS as HikariDataSource
-	participant Pool as HikariPool
-	participant Bag as ConcurrentBag
-	participant Entry as PoolEntry
-	participant Factory as ProxyFactory
-	participant Connection as ProxyConnection
-  A->>Connection: close()
-	Connection->>Entry: recycle()
-	Entry->>Pool: recycle()
-	Pool->>Bag: require()
-```
