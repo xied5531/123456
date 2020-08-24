@@ -27,13 +27,13 @@ sequenceDiagram
     opt getConnection()
         DS->>Pool: getConnection()
         Pool->>Bag: borrow()
-        Bag->Entry
+        Bag->Entry: 
         Entry->>Factory: getProxyConnection()
-        Factory->Connection
+        Factory->Connection: 
         
-        Connection-->Factory
-        Factory-->>Entry
-        Entry-->>Pool
+        Connection-->Factory: 
+        Factory-->>Entry: 
+        Entry-->>Pool: 
         Pool-->>DS: ProxyConnection
     end
     
