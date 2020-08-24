@@ -45,3 +45,5 @@ sequenceDiagram
     end
 ```
 
+- getConnection()，获取数据库连接
+- close()，关闭数据库连接
