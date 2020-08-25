@@ -17,6 +17,8 @@ titles:
 
 ## Java
 
+- Optional：[java8 Optional使用总结](https://www.cnblogs.com/kingsonfu/p/11009574.html)
+
 ### 并发
 
 - 线程：[Java并发学习之四种线程创建方式的实现与对比](https://my.oschina.net/u/566591/blog/1576410)
@@ -24,3 +26,4 @@ titles:
 - 线程池：[Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
 - ThreadFactory：[Creating Threads Using java.util.concurrent.ThreadFactory](https://howtodoinjava.com/java/multi-threading/creating-threads-using-java-util-concurrent-threadfactory/)
 - AtomicIntegerFieldUpdater：[AtomicIntegerFieldUpdater使用](https://www.cnblogs.com/hithlb/p/4516078.html)
+
