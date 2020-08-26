@@ -20,6 +20,7 @@ titles:
 ### 并发
 
 - Channel：[理解 Go channel](https://sanyuesha.com/2017/08/03/go-channel/)
+- WaitGroup：[golang--sync.WaitGroup使用示例](https://www.cnblogs.com/getong/archive/2013/03/29/2988816.html)
 
 ## Java
 
