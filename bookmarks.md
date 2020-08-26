@@ -15,6 +15,12 @@ titles:
 
 - [Double-checked_locking](https://en.wikipedia.org/wiki/Double-checked_locking)
 
+## Go
+
+### 并发
+
+- Channel：[理解 Go channel](https://sanyuesha.com/2017/08/03/go-channel/)
+
 ## Java
 
 - Optional：[java8 Optional使用总结](https://www.cnblogs.com/kingsonfu/p/11009574.html)
