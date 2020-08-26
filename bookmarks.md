@@ -26,4 +26,5 @@ titles:
 - 线程池：[Java线程池实现原理及其在美团业务中的实践](https://tech.meituan.com/2020/04/02/java-pooling-pratice-in-meituan.html)
 - ThreadFactory：[Creating Threads Using java.util.concurrent.ThreadFactory](https://howtodoinjava.com/java/multi-threading/creating-threads-using-java-util-concurrent-threadfactory/)
 - AtomicIntegerFieldUpdater：[AtomicIntegerFieldUpdater使用](https://www.cnblogs.com/hithlb/p/4516078.html)
+- Semaphore：[Java 中的 Semaphore 信号量使用方法](https://www.jianshu.com/p/aff5e1ad4581)
 
