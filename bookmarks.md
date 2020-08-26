@@ -7,8 +7,6 @@ titles:
   # @end locale config
 ---
 
-## 收藏夹
-
 - [Learn Git Branching](https://learngitbranching.js.org/)
 
 ## Tips
