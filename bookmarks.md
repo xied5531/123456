@@ -33,3 +33,7 @@ titles:
 - AtomicIntegerFieldUpdater：[AtomicIntegerFieldUpdater使用](https://www.cnblogs.com/hithlb/p/4516078.html)
 - Semaphore：[Java 中的 Semaphore 信号量使用方法](https://www.jianshu.com/p/aff5e1ad4581)
 
+## Shell
+
+- Array：[shell 数组以及for循环](https://juejin.im/post/6844903847534526471)
+- String：[Shell_Linux Shell 中实现字符串切割的几种方法](http://www.jeepxie.net/article/462247.html)
