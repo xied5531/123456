@@ -36,4 +36,5 @@ titles:
 ## Shell
 
 - Array：[shell 数组以及for循环](https://juejin.im/post/6844903847534526471)
-- String：[Shell_Linux Shell 中实现字符串切割的几种方法](http://www.jeepxie.net/article/462247.html)
+- String切割：[Shell_Linux Shell 中实现字符串切割的几种方法](http://www.jeepxie.net/article/462247.html)
+- String截断：[Linux Shell 截取字符串](https://www.cnblogs.com/fengbohello/p/5954895.html)
