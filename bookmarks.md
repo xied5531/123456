@@ -7,8 +7,8 @@ titles:
   # @end locale config
 ---
 
-- [Java Design Patterns](https://java-design-patterns.com/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
+- [Java Design Patterns](https://java-design-patterns.com/)
 
 ## Tips
 
