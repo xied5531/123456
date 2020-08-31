@@ -25,6 +25,7 @@ titles:
 
 - Optional：[java8 Optional使用总结](https://www.cnblogs.com/kingsonfu/p/11009574.html)
 - 泛型：[泛型：工作原理及其重要性](https://www.oracle.com/cn/technical-resources/articles/java/juneau-generics.html)
+- Proxy：[Java代理类Proxy的用法](https://www.cnblogs.com/woshimrf/p/java-proxy.html)
 
 ### 并发
 
