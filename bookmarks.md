@@ -9,6 +9,8 @@ titles:
 
 - [Learn Git Branching](https://learngitbranching.js.org/)
 - [Java Design Patterns](https://java-design-patterns.com/)
+- [Math Is Fun](https://www.mathsisfun.com/index.htm)
+- [labuladong 的算法小抄](https://labuladong.gitbook.io/algo/)
 
 ## Tips
 
