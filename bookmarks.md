@@ -7,14 +7,15 @@ titles:
   # @end locale config
 ---
 
-- [Learn Git Branching](https://learngitbranching.js.org/)
-- [Java Design Patterns](https://java-design-patterns.com/)
 - [Math Is Fun](https://www.mathsisfun.com/index.htm)
+- [Java Design Patterns](https://java-design-patterns.com/)
+- [OI Wiki](https://oi-wiki.org/)
 - [labuladong 的算法小抄](https://labuladong.gitbook.io/algo/)
+- [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 
-## Tips
+## Tool
 
-- [Double-checked_locking](https://en.wikipedia.org/wiki/Double-checked_locking)
+- [Learn Git Branching](https://learngitbranching.js.org/)
 
 ## Go
 
@@ -30,6 +31,8 @@ titles:
 - Proxy：[Java代理类Proxy的用法](https://www.cnblogs.com/woshimrf/p/java-proxy.html)
 
 ### 并发
+
+- [Double-checked_locking](https://en.wikipedia.org/wiki/Double-checked_locking)
 
 - 线程：[Java并发学习之四种线程创建方式的实现与对比](https://my.oschina.net/u/566591/blog/1576410)
 - 线程池：[深入理解 Java 线程池：ThreadPoolExecutor](https://juejin.im/entry/6844903475197788168)
