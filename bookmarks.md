@@ -15,6 +15,9 @@ titles:
 
 ## Tool
 
+- [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [visualgo](https://visualgo.net/zh)
+- [Algorithm Visualizer](https://algorithm-visualizer.org/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
 
 ## Go
