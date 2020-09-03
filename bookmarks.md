@@ -3,7 +3,7 @@ layout: article
 titles:
   # @start locale config
   en      : &EN       Bookmarks
-  zh-Hans : &ZH_HANS  书签
+  zh      : &ZH       书签
   # @end locale config
 ---
 
