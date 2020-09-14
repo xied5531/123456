@@ -7,7 +7,6 @@ titles:
   # @end locale config
 ---
 
-- [Math Is Fun](https://www.mathsisfun.com/index.htm)
 - [Java Design Patterns](https://java-design-patterns.com/)
 - [OI Wiki](https://oi-wiki.org/)
 - [labuladong 的算法小抄](https://labuladong.gitbook.io/algo/)
@@ -25,6 +24,7 @@ titles:
 - [BetterExplained](https://betterexplained.com/)
 - [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
 - [explainshell](https://explainshell.com/)
+- [Math Is Fun](https://www.mathsisfun.com/index.htm)
 
 ## Go
 
