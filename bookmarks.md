@@ -14,6 +14,7 @@ titles:
 - [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [awesome-scalability](http://awesome-scalability.com/)
 - [Algorithms 4th](https://algs4.cs.princeton.edu/home/)
+- [CS-Notes](https://cyc2018.github.io/CS-Notes/#/README)
 
 ## Tool
 
@@ -21,6 +22,9 @@ titles:
 - [visualgo](https://visualgo.net/zh)
 - [Algorithm Visualizer](https://algorithm-visualizer.org/)
 - [Learn Git Branching](https://learngitbranching.js.org/)
+- [BetterExplained](https://betterexplained.com/)
+- [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+- [explainshell](https://explainshell.com/)
 
 ## Go
 
