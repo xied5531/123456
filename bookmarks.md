@@ -13,6 +13,7 @@ titles:
 - [labuladong 的算法小抄](https://labuladong.gitbook.io/algo/)
 - [The System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [awesome-scalability](http://awesome-scalability.com/)
+- [Algorithms 4th](https://algs4.cs.princeton.edu/home/)
 
 ## Tool
 
