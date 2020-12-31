@@ -27,3 +27,8 @@
 - [MySQL索引原理及慢查询优化](https://tech.meituan.com/2014/06/30/mysql-index.html)
 - [数字证书原理](https://zhaohuabing.com/post/2020-03-19-pki/)
 - [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
+
+## Java
+
+- [Why does ArrayList use transient storage?](https://stackoverflow.com/questions/9848129/why-does-arraylist-use-transient-storage)
+
