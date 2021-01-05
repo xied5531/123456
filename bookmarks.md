@@ -7,6 +7,10 @@
 - https://algs4.cs.princeton.edu/home/
 - https://oi-wiki.org/
 
+------
+
+- [【从二叉树到红黑树】清晰理解红黑树的演变---红黑的含义](https://cloud.tencent.com/developer/article/1499374)
+
 ## 设计模式和重构
 
 - https://refactoring.guru/
