@@ -20,6 +20,10 @@
 - https://github.com/donnemartin/system-design-primer
 - http://awesome-scalability.com/
 
+------
+
+- [Inside NGINX: How We Designed for Performance & Scale](https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/)
+
 ## 工具
 
 - [iptables](https://wangchujiang.com/linux-command/c/iptables.html)
