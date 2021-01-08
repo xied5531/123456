@@ -35,6 +35,7 @@
 - [MySQL索引原理及慢查询优化](https://tech.meituan.com/2014/06/30/mysql-index.html)
 - [数字证书原理](https://zhaohuabing.com/post/2020-03-19-pki/)
 - [如何选择开源许可证？](http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html)
+- [nginx.conf](https://www.nginx.com/resources/wiki/start/topics/examples/full/)
 
 ## Java
 
