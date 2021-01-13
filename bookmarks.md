@@ -42,3 +42,6 @@
 
 - [Why does ArrayList use transient storage?](https://stackoverflow.com/questions/9848129/why-does-arraylist-use-transient-storage)
 
+## Spring
+
+- [浅谈spring为什么推荐使用构造器注入](https://www.cnblogs.com/joemsu/p/7688307.html)
