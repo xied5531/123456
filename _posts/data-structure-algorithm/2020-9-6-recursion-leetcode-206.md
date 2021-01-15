@@ -85,7 +85,7 @@ NULL<-1<-2<-3<-4<-5
 5->4->3->2->1->NULL
 ```
 
-完成整个链表反转
+完成本轮链表反转
 
 ## 代码
 
@@ -102,10 +102,10 @@ func reverseList(head *ListNode) *ListNode {
         return head
     }
 
-    last := reverseList(head.Next)
+    newHead := reverseList(head.Next)
 
     head.Next.Next = head
     head.Next = nil
-    return last
+    return newHead
 }
 ```
